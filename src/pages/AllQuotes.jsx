@@ -1,7 +1,7 @@
 import React from "react";
 import QuoteList from "../components/quotes/QuoteList";
 
-const DUMMY_QUOTES = [
+export const DUMMY_QUOTES = [
   { id: "q1", author: "John Wick", text: "I'll will be coming after you" },
   {
     id: "q2",
