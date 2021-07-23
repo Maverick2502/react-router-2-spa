@@ -8,6 +8,7 @@ function NewQuote() {
   const addQuoteHandler = (quoteData) => {
     console.log(quoteData);
 
+    // Redirects back to 'quotes' query
     history.push("/quotes");
   };
 
