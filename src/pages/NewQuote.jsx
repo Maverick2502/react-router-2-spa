@@ -18,11 +18,7 @@ function NewQuote() {
     sendRequest(quoteData);
 
     // Redirects back to 'quotes' query
-<<<<<<< HEAD
     history.push("/quotes");
-=======
-    // history.push("/quotes");
->>>>>>> f400b9aa6693ebdd8e16adfd9848985e7d5e2533
   };
 
   return (
