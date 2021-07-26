@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect } from "react";
 import { Link, Route, useParams, useRouteMatch } from "react-router-dom";
-import { DUMMY_QUOTES } from "./AllQuotes";
 import Comments from "../components/comments/Comments";
 import HighlightedQuote from "../components/quotes/HighlightedQuote";
+import LoadingSpinner from "../components/UI/LoadingSpinner";
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
-import LoadingSpinner from "../components/UI/LoadingSpinner";
+import { DUMMY_QUOTES } from "./AllQuotes";
 
 function QuoteDetail() {
   const params = useParams();
@@ -28,7 +28,7 @@ function QuoteDetail() {
 
   if (status === "pending") {
     return (
-      <div>
+      <div className="centered">
         <LoadingSpinner />
       </div>
     );

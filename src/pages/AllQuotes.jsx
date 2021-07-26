@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
+import NoQuotesFound from "../components/quotes/NoQuotesFound";
 import QuoteList from "../components/quotes/QuoteList";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 import useHttp from "../hooks/use-http";
 import { getAllQuotes } from "../lib/api";
-import NoQuotesFound from "../components/quotes/NoQuotesFound";
 
 export const DUMMY_QUOTES = [
   { id: "q1", author: "John Wick", text: "I'll will be coming after you" },
