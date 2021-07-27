@@ -1,7 +1,6 @@
 import React from "react";
 
-const FIREBASE_DOMAIN =
-  "https://react-routing-3256d-default-rtdb.firebaseio.com";
+const FIREBASE_DOMAIN = "your_own_firebase";
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
