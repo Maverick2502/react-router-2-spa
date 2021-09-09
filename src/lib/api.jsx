@@ -1,5 +1,3 @@
-import React from "react";
-
 const FIREBASE_DOMAIN =
   "https://react-routing-3256d-default-rtdb.firebaseio.com";
 
