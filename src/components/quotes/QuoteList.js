@@ -36,6 +36,8 @@ const QuoteList = (props) => {
     // );
   };
 
+  console.log("test");
+
   return (
     <Fragment>
       <div className={classes.sorting}>
