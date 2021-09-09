@@ -11,7 +11,7 @@ function NotFound() {
       <div>
         <h3>Look like you're lost</h3>
 
-        <p>The page you are looking for not avaible!</p>
+        <p>The page you are looking for not available!</p>
 
         <Link to="/quotes">Go to Home</Link>
       </div>
